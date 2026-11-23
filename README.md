@@ -1,7 +1,7 @@
 # Proyecto-POO-Brigada-8
-## Tema X "Tema electo"
+## Servicio de paquetería
 ## Rodriguez Gonzalez Adrian
-## Hector
+## Mora Chavez Hector Cristobal
 ## Cerritos Serrano Angelica
 ## Angel
 
