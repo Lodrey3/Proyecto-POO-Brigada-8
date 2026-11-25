@@ -9,7 +9,7 @@ Sistema de terminal que cotiza y registra envíos (sobres, paquetes, paquetes fr
 - Mora Chávez Héctor Cristóbal
 - Rodríguez González Adrián
 - Cerritos Serrano Angélica
-- Ángel (completar apellidos)
+- Angel Emanuel Jose Juarez
 
 ## Requisitos
 
