@@ -1,0 +1,16 @@
+digraph G { graph[fontname="DejaVu Sans",dpi=200,rankdir=LR,nodesep=0.5,ranksep=0.9];
+node[shape=box,style="rounded,filled",fillcolor="#EEF6E8",fontname="DejaVu Sans",fontsize=12,margin="0.25,0.1"];
+edge[fontname="DejaVu Sans",fontsize=9,arrowsize=0.8];
+ini[shape=circle,style=filled,fillcolor=black,label="",width=0.18];
+fin[shape=doublecircle,style=filled,fillcolor=black,label="",width=0.14];
+Registrado;EnAlmacen;EnRuta;Entregado;Devuelto;Cancelado;
+ini->Registrado[label="registrar_envio()"];
+Registrado->EnAlmacen[label="ingresar_a_almacen()"];
+Registrado->Cancelado[label="cancelar()"];
+EnAlmacen->EnRuta[label="salir_a_ruta()"];
+EnAlmacen->Cancelado[label="cancelar()"];
+EnRuta->Entregado[label="entregar()"];
+EnRuta->EnAlmacen[label="registrar_intento_fallido()\n[intento 1 o 2]\n/ intentos_fallidos += 1, vuelve al almacén"];
+EnRuta->Devuelto[label="registrar_intento_fallido()\n[intento 3]\n/ intentos_fallidos += 1, se devuelve al remitente"];
+Entregado->fin; Devuelto->fin; Cancelado->fin;
+}
