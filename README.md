@@ -72,7 +72,7 @@ python -m paqueteria cotizar --tipo paquete --servicio estandar --destinatario-c
 python -m paqueteria cotizar --tipo paquete --servicio estandar --destinatario-cp 03100 --peso -2 --largo 10 --ancho 10 --alto 10 --valor 100
 ```
 
-### 5. Importar envíos desde CSV
+### 2. Importar envíos desde CSV
 
 ```bash
 # 12 envíos válidos de un cliente empresarial
@@ -108,7 +108,7 @@ python -m paqueteria --fecha-hora "2026-11-19 08:00" estado PQ-20261120-0002 sal
 
 Acciones válidas: `ingresar_a_almacen`, `salir_a_ruta`, `entregar`, `registrar_intento_fallido`, `cancelar`.
 
-### 2. Rastrear una guía
+### 4. Rastrear una guía
 
 ```bash
 python -m paqueteria rastrear PQ-20261120-0013     # estado Devuelto y su historial con fecha y hora
@@ -116,7 +116,7 @@ python -m paqueteria rastrear PQ-99999999-0000     # rechazo: la guía no existe
 python -m paqueteria listar --estado EnAlmacen     # lista los envíos en un estado
 ```
 
-### 4. Asignar envíos a repartidores
+### 5. Asignar envíos a repartidores
 
 ```bash
 python -m paqueteria repartidores                                  # 2 motocicletas (20 kg) y 2 camionetas (500 kg)
@@ -127,7 +127,7 @@ python -m paqueteria --fecha-hora "2026-11-20 11:45" asignar       # ya no hay p
 
 El paquete de 120 kg solo puede ir en camioneta. Si se cancela un envío asignado, se quita de su repartidor.
 
-### 8. Simular la jornada de reparto
+### 6. Simular la jornada de reparto
 
 ```bash
 python -m paqueteria --fecha-hora "2026-11-20 12:00" simular
@@ -137,7 +137,7 @@ Con `simular --semilla 7` (en lugar del comando anterior) la simulación sale ig
 
 Todos los repartidores trabajan al mismo tiempo (un hilo cada uno). La central muestra el avance mientras ocurre, el 10 % de los intentos fallan y al final el sistema verifica que el estado de cada envío corresponda a lo que pasó. La bitácora queda en `ejecucion/bitacoras/`. Si nadie tiene envíos asignados, el programa lo avisa.
 
-### 6. Reporte de un día
+### 7. Reporte de un día
 
 ```bash
 python -m paqueteria --fecha-hora "2026-11-20 19:00" reporte
@@ -146,7 +146,7 @@ python -m paqueteria reporte --fecha 2026-11-20
 
 Muestra y guarda en `ejecucion/reportes/` los envíos por estado, los ingresos por tipo de envío y por servicio y las entregas por repartidor.
 
-### 7. Conservar los datos entre ejecuciones
+### 8. Conservar los datos entre ejecuciones
 
 Cada comando anterior es una ejecución distinta del programa y todos ven los cambios de los anteriores: los envíos, su historial, los repartidores y el contador de guías se guardan en `ejecucion/` (archivos JSON con escritura atómica).
 
