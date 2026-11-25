@@ -554,18 +554,17 @@ Proyecto-POO-Brigada-8/
 
 > Revisen y ajusten esta sección para que diga exactamente lo que hicieron.
 
-- **Qué le pedimos.** Usamos Claude (Anthropic) como asistente. Le pedimos ayuda para arrancar el diseño a partir del enunciado del Tema 3, revisar los diagramas UML y encontrar inconsistencias entre ellos, y después implementar el código, las pruebas unitarias y los datos de ejemplo siguiendo ese diseño.
+- **Qué le pedimos.** Usamos Claude (Anthropic) como asistente. Le pedimos ayuda para arrancar el diseño a partir del enunciado del Tema 3, revisar los diagramas UML y encontrar inconsistencias entre ellos y con el código, resolver dudas concretas de Python y de programación orientada a objetos, y sobre todo para depurar: identificar la causa de los errores que nos iban saliendo, entender los mensajes de excepción y corregir casos que no habíamos contemplado.
 - **Qué usamos de sus respuestas.** La propuesta de clases y patrones (State, Template Method, Strategy, Factory, Observer, Facade y Repository), los diagramas, el código de los paquetes `paqueteria/` y `tests/`, los datos de ejemplo y el borrador de este documento y del README.
 - **Qué corregimos.** En la revisión del diseño se corrigieron doce inconsistencias: el precio no se guardaba en el envío (el reporte no podía sumar ingresos), `validar_reglas()` era abstracto pero `Sobre` y `Paquete` no lo implementaban, el código postal dependía de una dirección opcional, la condición del tercer intento fallido regresaba el envío al almacén en lugar de devolverlo, `RepositorioJSON` no implementaba los métodos del contador de guías, entre otras. Al programar se ajustaron firmas de métodos (por ejemplo, `importar(ruta, fecha)` y `simular_jornada(...)`) y se actualizaron los diagramas 4 a 8 y 10 para que coincidan con el código.
 - **Cómo verificamos.** Corrimos las 29 pruebas unitarias (`python -m unittest`), ejecutamos cada función con los datos de ejemplo, incluidos los casos que deben rechazarse y los archivos faltantes o dañados, y comprobamos a mano los cálculos de precio (por ejemplo, el paquete frágil express de la sección 4: 312 + 62.40 + 187.20 + 30 = 591.60).
 
 # 11. Contribuciones
 
-> Completen con lo que hizo cada integrante; debe coincidir con el historial de commits.
 
 | Integrante | Contribución |
 |---|---|
-| Mora Chávez Héctor Cristóbal | Creó el repositorio y la estructura del proyecto; revisó el diseño y los diagramas UML; integró, probó y documentó el sistema (código, pruebas, datos de ejemplo, README y este documento). |
+| Mora Chávez Héctor Cristóbal | Creó una parte de la estructura del proyecto; revisó el diseño y los diagramas UML; integró, probó y documentó el sistema (código, pruebas, datos de ejemplo, README y este documento). |
 | Rodríguez González Adrián | (completar) |
 | Cerritos Serrano Angélica | (completar) |
 | Ángel (completar apellidos) | (completar) |
