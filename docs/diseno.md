@@ -564,7 +564,7 @@ Proyecto-POO-Brigada-8/
 
 | Integrante | Contribución |
 |---|---|
-| Mora Chávez Héctor Cristóbal | Creó una parte de la estructura del proyecto; revisó el diseño y los diagramas UML; integró, probó y documentó el sistema (código, pruebas, datos de ejemplo, README y este documento). |
+| Mora Chávez Héctor Cristóbal | Participó en todas las etapas del proyecto:  diseño y diagramas UML, desarrollo del código (modelo, servicios, persistencia, concurrencia e interfaz de línea de comandos), pruebas unitarias, datos de ejemplo y documentación (README y documento de diseño). |
 | Rodríguez González Adrián | (completar) |
 | Cerritos Serrano Angélica | (completar) |
 | Ángel (completar apellidos) | (completar) |
