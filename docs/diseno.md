@@ -109,7 +109,7 @@ Todas las mejoras usan únicamente temas del curso (POO, UML, SOLID, excepciones
 
 # 4. Diagramas UML
 
-Cada diagrama indica qué muestra y por qué se eligió, como pide el enunciado. Las imágenes están en `docs/uml/`. Los diagramas 4, 5, 6, 7, 8 y 10 incluyen también su código fuente de Graphviz (`.dot`).
+Cada diagrama indica qué muestra y por qué se eligió, como pide el enunciado. Las imágenes están en docs/uml/. Los diagramas 4, 5, 6, 7, 8 y 10 incluyen también su código fuente de Graphviz (`.dot`).
 
 ## 1. Organización en paquetes
 
