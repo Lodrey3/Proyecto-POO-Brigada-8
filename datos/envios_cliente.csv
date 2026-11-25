@@ -1,0 +1,13 @@
+tipo,servicio,remitente_nombre,remitente_telefono,remitente_cp,destinatario_nombre,destinatario_telefono,destinatario_cp,destinatario_calle,destinatario_ciudad,peso_kg,largo_cm,ancho_cm,alto_cm,valor_declarado
+sobre,estandar,Librería Central SA,5512345678,06000,María Pérez,5523456789,03100,Av. Universidad 100,CDMX,,,,,
+sobre,express,Librería Central SA,5512345678,06000,Juan Soto,4421234567,76000,Calle Juárez 5,Querétaro,,,,,
+paquete,estandar,Librería Central SA,5512345678,06000,Laura Gil,3312345678,44100,Av. Vallarta 300,Guadalajara,3.5,30,20,15,800
+paquete,express,Librería Central SA,5512345678,06000,Pedro Ruiz,5534567890,04510,,,12,40,40,30,1500
+paquete,estandar,Librería Central SA,5512345678,06000,Sofía Luna,2221234567,72000,,Puebla,18,50,40,40,2000
+fragil,estandar,Librería Central SA,5512345678,06000,Carlos Vega,8112345678,64000,,Monterrey,2,25,25,25,3000
+fragil,express,Librería Central SA,5512345678,06000,Elena Ríos,5545678901,01000,Av. Insurgentes 20,CDMX,1.5,20,15,10,5000
+refrigerado,express,Librería Central SA,5512345678,06000,Hugo Mora,7771234567,62000,,Cuernavaca,4,30,30,30,1200
+refrigerado,express,Librería Central SA,5512345678,06000,Ivonne Paz,5556789012,11000,,CDMX,6,35,30,25,900
+paquete,estandar,Librería Central SA,5512345678,06000,Óscar Núñez,9991234567,97000,,Mérida,120,120,80,60,25000
+sobre,estandar,Librería Central SA,5512345678,06000,Rosa Díaz,5567890123,14000,,CDMX,,,,,
+paquete,express,Librería Central SA,5512345678,06000,Tomás Rey,5578901234,15000,,CDMX,8,30,30,20,700

@@ -1,0 +1,6 @@
+[
+  {"id": "R01", "nombre": "Ana López", "vehiculo": "motocicleta"},
+  {"id": "R02", "nombre": "Beto Ramírez", "vehiculo": "motocicleta"},
+  {"id": "R03", "nombre": "Carla Méndez", "vehiculo": "camioneta"},
+  {"id": "R04", "nombre": "Diego Torres", "vehiculo": "camioneta"}
+]

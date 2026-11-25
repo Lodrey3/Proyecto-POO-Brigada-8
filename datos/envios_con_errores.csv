@@ -1,0 +1,13 @@
+tipo,servicio,remitente_nombre,remitente_telefono,remitente_cp,destinatario_nombre,destinatario_telefono,destinatario_cp,destinatario_calle,destinatario_ciudad,peso_kg,largo_cm,ancho_cm,alto_cm,valor_declarado
+sobre,estandar,Farmacia Sol,5598765432,06000,Ana Torres,5511112222,03100,,,,,,,
+caja,estandar,Farmacia Sol,5598765432,06000,Beto Cruz,5522223333,03100,,,,,,,
+refrigerado,estandar,Farmacia Sol,5598765432,06000,Ceci Ortiz,5533334444,04000,,,3,20,20,20,500
+refrigerado,express,Farmacia Sol,5598765432,06000,Dani Ochoa,6641234567,22000,,Tijuana,3,20,20,20,500
+paquete,estandar,Farmacia Sol,5598765432,06000,Eva Sanz,5544445555,03100,,,-2,20,20,20,500
+paquete,estandar,Farmacia Sol,5598765432,06000,Fede Gómez,5555556666,00123,,,2,20,20,20,500
+paquete,estandar,Farmacia Sol,5598765432,06000,,5566667777,03100,,,2,20,20,20,500
+paquete,estandar,Farmacia Sol,5598765432,06000,Gina Paz,55666,03100,,,2,20,20,20,500
+paquete,urgente,Farmacia Sol,5598765432,06000,Hugo Ríos,5577778888,03100,,,2,20,20,20,500
+paquete,estandar,Farmacia Sol,5598765432,06000,Iris Vela,5588889999,03100,,,dos,20,20,20,500
+fragil,estandar,Farmacia Sol,5598765432,06000,Jorge Lara,5599990000,03100,,,2,20,20,20,0
+paquete,express,Farmacia Sol,5598765432,06000,Karla Ugalde,5510101010,53000,,Naucalpan,5,30,30,30,900

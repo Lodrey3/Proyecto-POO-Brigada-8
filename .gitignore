@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Archivos que genera el programa al ejecutarse
+ejecucion/
+
+# Editor y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
