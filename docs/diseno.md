@@ -565,6 +565,6 @@ Proyecto-POO-Brigada-8/
 | Integrante | Contribución |
 |---|---|
 | Mora Chávez Héctor Cristóbal | Participó en todas las etapas del proyecto:  diseño y diagramas UML, desarrollo del código (modelo, servicios, persistencia, concurrencia e interfaz de línea de comandos), pruebas unitarias, datos de ejemplo y documentación (README y documento de diseño). |
-| Rodríguez González Adrián | (completar) |
+| Rodríguez González Adrián | Implementé los paquetes servicios (fachada SistemaPaqueteria, FabricaEnvios, registro y guías sincronizadas, asignación de envíos, importación CSV y reportes diarios), concurrencia (simulación de reparto con hilos por repartidor y monitoreo con el patrón Observer y Queue) y cli (menú interactivo, argumentos con argparse y captura global de errores). |
 | Cerritos Serrano Angélica | (completar) |
 | Angel Emanuel Jose Juarez | Colaboré en el diseño e implementación de la arquitectura del sistema, aplicando patrones de diseño para desacoplar responsabilidades. Específicamente, me encargué de la jerarquía de envíos (implementando el patrón Template Method para el cálculo de tarifas y Strategy para los servicios) y desarrollé la máquina de estados del envío usando el patrón State para gestionar transiciones e intentos fallidos|
