@@ -20,7 +20,7 @@ Proyecto final de Programación Orientada a Objetos, Tema 3. Brigada 8.
 | 12      | Jornada de reparto concurrente      | Diagrama de secuencia                  |
 | 13      | Importación de envíos desde CSV     | Diagrama de actividad                  |
 
-Además de los diagramas, el documento incluye: introducción y notación (sección 1), supuestos de diseño (2), mejoras añadidas (3), diagramas (4), trazabilidad con las funciones mínimas (5), tabla de decisiones de diseño (6), principios SOLID (7), alternativas (8), mapa clase → módulo (9), uso de IA (10) y contribuciones (11).
+
 
 # 1. Introducción
 
