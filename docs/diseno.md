@@ -1,6 +1,6 @@
 # Documento de diseño: Servicio de paquetería
 
-Proyecto final de Programación Orientada a Objetos, Tema 3. Brigada 8.
+Proyecto final de Programación Orientada a Objetos. Brigada 8.
 
 **Contenido**
 
